@@ -50,7 +50,7 @@ let
         echo "Homebrew doesn't seem to be installed. Please install homebrew separately." >&2
         echo "You can install homebrew using the following command" >&2
         echo >&2
-        echo '    /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"' >&2
+        echo '    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"' >&2
         echo >&2
         exit 2
     fi
